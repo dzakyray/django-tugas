@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Tag</title>
+</head>
+<body>
+    <h1>Daftar Tag</h1>
+    <ul>
+        {% for tag in tags %}
+            <li>
+                <a href="{% url 'blog:post_list_by_tag' tag.slug %}">{{ tag.name }}</a>
+            </li>
+        {% empty %}
+            <p>Tidak ada tag.</p>
+        {% endfor %}
+    </ul>
+</body>
+</html>

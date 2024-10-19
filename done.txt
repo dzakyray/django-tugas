@@ -1,0 +1,86 @@
+Postingan Blog
+[✅] Menampilkan daftar postingan blog
+✔️ Berhasil menampilkan daftar postingan di post_list.html dengan pagination dan filter.
+
+[✅] Menampilkan detail postingan blog
+✔️ Berhasil menampilkan detail postingan di post_detail.html dengan komentar dan pagination komentar.
+
+[✅] Menambahkan postingan blog
+✔️ Form untuk menambahkan postingan sudah berfungsi di post_create().
+
+[✅] Mengedit postingan blog
+✔️ Fungsi edit postingan sudah berjalan dengan post_edit().
+
+[✅] Menghapus postingan blog
+✔️ Aksi delete postingan sudah diterapkan melalui view atau di admin.
+
+[✅] Menampilkan postingan blog berdasarkan kategori
+✔️ Sudah ada filter kategori menggunakan post_list_by_category().
+
+[✅] Menampilkan postingan blog berdasarkan tag
+✔️ Sudah ada filter tag menggunakan post_list_by_tag().
+
+[✅] Menampilkan postingan blog berdasarkan penulis
+✔️ Fungsi filter postingan berdasarkan penulis dengan post_list_by_author() sudah dibuat.
+
+[✅] Menampilkan postingan blog berdasarkan tanggal
+✔️ Fungsi filter berdasarkan tanggal sudah ditambahkan menggunakan post_list_by_date().
+
+[✅] Menampilkan postingan blog berdasarkan keyword
+✔️ Filter berdasarkan keyword (q) sudah diterapkan di form pencarian.
+
+[✅] Menampilkan postingan blog berdasarkan jumlah komentar
+✔️ Sudah berhasil diurutkan berdasarkan jumlah komentar aktif.
+
+2. Komentar
+[✅] Menampilkan daftar komentar
+✔️ Komentar ditampilkan dengan pagination di post_detail.html.
+
+[✅] Menambahkan komentar
+✔️ Fungsi untuk menambahkan komentar sudah berjalan melalui form di halaman detail postingan.
+
+[✅] Menampilkan daftar komentar dengan pagination
+✔️ Pagination sudah diterapkan untuk komentar di halaman detail postingan.
+
+3. Tagging
+[✅] Menambahkan tag pada Postingan Blog
+✔️ Form untuk menambahkan tag sudah berjalan dengan integrasi taggit.
+
+[✅] Menampilkan postingan blog berdasarkan tag
+✔️ Fungsi filter berdasarkan tag sudah berjalan.
+
+[✅] Menampilkan daftar tag
+✔️ Daftar tag sudah tampil dan bisa digunakan untuk filter.
+
+4. Pagination
+[✅] Menampilkan postingan blog dengan pagination
+✔️ Pagination berjalan dengan baik di halaman daftar postingan.
+
+[✅] Menampilkan daftar komentar dengan pagination
+✔️ Pagination sudah berfungsi di halaman detail postingan untuk komentar.
+
+5. User Authentication
+[✅] Menambahkan fitur login
+✔️ Login sudah berfungsi dengan halaman login.html.
+
+[✅] Menambahkan fitur logout
+✔️ Logout sudah diterapkan dan berjalan dengan baik.
+
+[✅] Menambahkan fitur register
+✔️ Fungsi register sudah berjalan melalui halaman register.html.
+
+[✅] Menambahkan fitur reset password
+✔️ Reset password sudah diterapkan dengan beberapa template:
+password_reset.html
+password_reset_done.html
+password_reset_confirm.html
+password_reset_complete.html
+
+[✅] Menambahkan fitur change password
+✔️ Change password sudah diterapkan dengan template:
+password_change.html
+password_change_done.html
+
+6. Profil Pengguna
+[✅] Membuat profil pengguna
+✔️ Profil pengguna dengan fitur update nama pengguna dan ganti password sudah berfungsi di profile.html.
